@@ -1,0 +1,18 @@
+POST http://139.180.132.70:3000/createAsset/
+content-type: application/json
+
+{
+   "AppraisedValue": 50,
+    "Color": "Blue",
+    "assetID": "asset16",
+    "Owner": "vijay97",
+    "Size": 10
+}
+
+POST http://139.180.132.70:3000/addUser
+content-type: application/json
+
+{
+   "userName":"Hardik Ghoshal",
+   "userId": "hardik12"
+}
